@@ -1,0 +1,93 @@
+body{
+    background-color: #f5d03d;
+}
+
+/*  Header Section */
+
+.navbar-brand{
+    color: #382c5c;
+    font-size: 32px;
+    font-weight: 600;
+}
+.nav-link {
+    color: #2e2d2d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* search section  */
+
+.input-form{
+    width: 400px;
+    margin: 40px auto 60px;
+}
+.input-form button{
+    background-color: #3B2D64;
+    color: #fff;
+    font-size: 18px;
+}
+.input-group>.form-control, .input-group>.form-select {
+    height: 45px;
+}
+.input-form button:hover{
+    color: gold;
+}
+
+/* all foods */
+
+#food-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 60px;
+}
+.meal-box{
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff !important;
+    box-shadow: 0 0 8px 6px #e4c180;;
+}
+.meal-box img{
+    width:100%;
+    border-radius: 15px 15px 0 0;
+}
+.meal-box h4{
+    margin: 20px 0;
+    color:black;
+}
+
+/* single food details */
+
+#single-item-details img {
+    width: 500px;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+}
+#single-item-details {
+    width: 500px;
+    margin: 0 auto 60px;
+}
+
+.details {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 0 0 15px 15px;
+}
+.details h4{
+    margin: 10px 0 20px;
+}
+#details-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sign {
+    color: white;
+    font-weight: 600;
+    background: #3B2D64;
+    padding: 0px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
