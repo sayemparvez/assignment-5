@@ -44,7 +44,7 @@ body{
 .meal-box{
     border-radius: 15px;
     text-align: center;
-    background-color: #fff !important;
+    background-color: #fff;
     box-shadow: 0 0 8px 6px #e4c180;;
 }
 .meal-box img{
